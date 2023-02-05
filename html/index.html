@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>linker</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/fontawesome-free-6.2.1-web/css/fontawesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/fontawesome-free-6.2.1-web/css/brands.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/fontawesome-free-6.2.1-web/css/solid.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -17,12 +29,42 @@
       </div>
       <h1 id="name">Ryan Mmbale</h1>
       <p id="bio">Software Developer</p>
-      <button class="links">Portfolio</button>
-      <button class="links">Twitter</button>
-      <button class="links">GitHub</button>
-      <button class="links">LinkedIn</button>
-      <button class="links">Instagaram</button>
-      <button class="links">Facebook</button>
+      <button class="links" onclick="document.location=' '">
+        <i class="fa-solid fa-user"></i> Portfolio
+      </button>
+      <button
+        class="links"
+        onclick="window.location.href='https://twitter.com/coderRyan_m' "
+      >
+        <i class="fa-brands fa-square-twitter"></i> Twitter
+      </button>
+      <button
+        class="links"
+        onclick="document.location='https://github.com/ryannthegr8'"
+      >
+        <i class="fa-brands fa-github"></i> GitHub
+      </button>
+      <button
+        class="links"
+        onclick="document.location='https://www.linkedin.com/in/ryan-mmbale-392220216/'"
+      >
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </button>
+      <button
+        class="links"
+        onclick="document.location='https://www.instagram.com/_ryan.im/'"
+      >
+        <i class="fa-brands fa-square-instagram"></i> Instagaram
+      </button>
+      <button
+        class="links"
+        onclick="document.location='https://www.facebook.com/ryan.bale.94009/'"
+      >
+        <i class="fa-brands fa-square-facebook"></i> Facebook
+      </button>
+      <p class="footer">©2023 Ryan</p>
+
+      <!-- loading spinner -->
     </div>
     <script src="../js/script.js"></script>
   </body>
