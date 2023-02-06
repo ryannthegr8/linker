@@ -1,0 +1,77 @@
+@font-face {
+  font-family: poppins;
+  src: url(../assets/Poppins/Poppins-Black.ttf);
+}
+
+body {
+  /* padding: 10px; */
+  margin: 20px;
+  font-family: poppins;
+}
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-wrap: wrap;
+  gap: 0rem;
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+.links {
+  transition: 0.1s;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.links:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  border: 5px solid rgba(255, 11, 85, 0.18);
+}
+h1,
+#bio {
+  margin-bottom: 0rem;
+  color: rgba(255, 255, 255, 0.651);
+}
+.footer {
+  color: rgba(255, 255, 255, 0.349);
+  position: absolute;
+  right: 0.5rem;
+  bottom: -1rem;
+}
+.links {
+  background: rgba(255, 255, 255, 0.521);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 1cm;
+  width: 5cm;
+}
+/* spinner */
+
+/* Bacground of the website */
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1043%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M-46.93477055344245 478.83780453358287L68.48326618081916 503.37066557652173 93.016127223758 387.95262884226014-22.401909510503586 363.4197677993213z' fill='rgba(167%2c 0%2c 255%2c 0.73)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1325.33 238.02 a106.39 106.39 0 1 0 212.78 0 a106.39 106.39 0 1 0 -212.78 0z' fill='rgba(167%2c 0%2c 255%2c 0.73)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M414.4668190602174 419.8279353098409L343.33953987559744 318.2476533173361 241.75925788309263 389.37493250195604 312.8865370677126 490.95521449446085z' fill='rgba(167%2c 0%2c 255%2c 0.73)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1129.007%2c740.91C1181.019%2c741.878%2c1231.735%2c720.293%2c1259.493%2c676.297C1289.185%2c629.236%2c1294.36%2c569.721%2c1267.898%2c520.771C1240.156%2c469.453%2c1187.309%2c432.924%2c1129.007%2c434.917C1073.451%2c436.816%2c1031.171%2c480.357%2c1005.646%2c529.738C982.374%2c574.76%2c981.107%2c627.83%2c1006.671%2c671.591C1032.01%2c714.967%2c1078.781%2c739.975%2c1129.007%2c740.91' fill='rgba(167%2c 0%2c 255%2c 0.73)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M940.2963069367172 129.57118615163975L876.7086794973087 208.09536646737558 955.2328598130445 271.6829939067841 1018.8204872524531 193.15881359104827z' fill='rgba(167%2c 0%2c 255%2c 0.73)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1146.88 347.45 a158.1 158.1 0 1 0 316.2 0 a158.1 158.1 0 1 0 -316.2 0z' fill='rgba(167%2c 0%2c 255%2c 0.73)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M421.58719099568975 117.54412997150769L349.3029563402471 10.378345032532394 242.13717140127176 82.66257968797508 314.42140605671443 189.82836462695036z' fill='rgba(167%2c 0%2c 255%2c 0.73)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1349.5851803925714 541.9838047522541L1455.8965890508912 464.74404514982734 1378.6568294484646 358.4326364915076 1272.3454207901448 435.67239609393425z' fill='rgba(167%2c 0%2c 255%2c 0.73)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M230.95 263.76 a171.05 171.05 0 1 0 342.1 0 a171.05 171.05 0 1 0 -342.1 0z' fill='rgba(167%2c 0%2c 255%2c 0.73)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M548.14 440.04 a110.24 110.24 0 1 0 220.48 0 a110.24 110.24 0 1 0 -220.48 0z' fill='rgba(167%2c 0%2c 255%2c 0.73)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1043'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
