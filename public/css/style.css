@@ -20,14 +20,30 @@ body {
   align-items: center;
 
   flex-wrap: wrap;
-  gap: 0rem;
+  gap: 1rem;
   position: relative;
 }
 
-.menu {
+.share {
+  background: rgba(43, 245, 70, 0.507);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   position: absolute;
   right: 0.5rem;
   top: 0.5rem;
+  color: white;
+  width: 2.8cm;
+  height: 0.6cm;
+
+  transition: 0.1s;
+}
+.share:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  cursor: pointer;
 }
 .links {
   transition: 0.1s;
@@ -57,7 +73,8 @@ h1,
   color: rgba(255, 255, 255, 0.349);
   position: absolute;
   right: 0.5rem;
-  bottom: -1rem;
+  bottom: 0.1rem;
+  font-size: 0.001%;
 }
 .links {
   background: rgba(255, 255, 255, 0.521);
@@ -67,7 +84,7 @@ h1,
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   height: 1cm;
-  width: 5cm;
+  width: 6cm;
 }
 /* spinner */
 
