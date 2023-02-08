@@ -72,7 +72,7 @@ h1,
 .footer {
   color: rgba(255, 255, 255, 0.349);
   position: absolute;
-  right: 0.5rem;
+  left: 0.5rem;
   bottom: 0.1rem;
   font-size: 0.001%;
 }
@@ -86,7 +86,150 @@ h1,
   height: 1cm;
   width: 6cm;
 }
-/* spinner */
+/* Share button */
+.share-btn {
+  background: rgba(15, 240, 71, 0.507);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  color: white;
+  width: 2.8cm;
+  height: 0.6cm;
+
+  transition: 0.1s;
+}
+.share-btn:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.share-options {
+  bottom: 3rem;
+  right: 0.6rem;
+  position: absolute;
+  width: auto;
+  height: auto;
+  transform-origin: bottom left;
+  transform: scale(0);
+  border-radius: 20px;
+  background: rgba(15, 15, 15, 0.5);
+  color: #fff;
+  padding: 20px;
+  font-family: "roboto";
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.share-options.active {
+  transform: scale(1);
+  transition-delay: 0s;
+}
+
+.title {
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: 0s;
+  font-size: 15px;
+  text-transform: capitalize;
+  width: fit-content;
+  padding: 0 20px 3px 0;
+}
+
+.social-media {
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: 0s;
+  width: 250px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -30px;
+}
+
+.social-media-btn {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  line-height: 50px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.social-media-btn:nth-child(1) {
+  background: #25d366;
+}
+
+.social-media-btn:nth-child(2) {
+  background: #e4405f;
+}
+
+.social-media-btn:nth-child(3) {
+  background: #1da1f2;
+}
+
+.social-media-btn:nth-child(4) {
+  background: #1877f2;
+}
+
+.social-media-btn:nth-child(5) {
+  background: #0a66c2;
+}
+
+.link-container {
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: 0s;
+  width: 80%;
+  position: relative;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 0 5px;
+}
+
+.link {
+  width: 80%;
+  height: 100%;
+  line-height: 40px;
+  color: #000;
+}
+
+.copy-btn {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border: none;
+  height: 100%;
+  width: 30%;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.share-options.active .title,
+.share-options.active .social-media,
+.share-options.active .link-container {
+  opacity: 1;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
 
 /* Bacground of the website */
 body {
