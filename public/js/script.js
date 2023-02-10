@@ -14,7 +14,7 @@ function copyFunction() {
   document.body.append(textArea);
   textArea.select();
   document.execCommand("copy");
-  cpylink.innerText = "Text copied";
+  cpylink.innerText = "link copied";
   textArea.remove();
 }
 document.getElementById("cpylink").addEventListener("click", copyFunction);
